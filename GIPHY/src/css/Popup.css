@@ -1,0 +1,33 @@
+.popup-body {
+    z-index: 2000;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+.popup-image {
+    margin-top: 2%;
+    width: 80%;
+    display: inline-block;
+    max-height: 90vh;
+}
+
+.popup-buttonClose {
+    color: rgba(72,169,77,0.6);
+    font-size: 4em;
+    font-weight: bolder;
+    position: fixed;
+    top: 0.5em;
+    right: 0.5em;
+    background: transparent;
+    border: none;
+    z-index: 5;
+}
+.popup-buttonClose:active ,.popup-buttonClose:hover {
+    color: rgba(72,169,77,1);
+    outline: none;
+}

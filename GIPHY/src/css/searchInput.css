@@ -1,0 +1,23 @@
+.search-input{
+    border: none;
+    border-radius: 20vw;
+    width: 50%;
+    min-width: 300px;
+    font-size: larger;
+    text-align: center;
+    background: rgba(150,150,150,0.96);
+}
+
+.search-input:focus{
+    border-radius: 0;
+    border-bottom:2px solid rgba(62,169,77,0.3) ;
+    display: block;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    outline: none;
+    font-size: 4em;
+    font-weight: bold;
+}
